@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/DemoQA/src/test/java">
+        <classes>
+            <class name="tests.Elements.BrokenLinksTest">
+                <methods>
+                    <include name="testImages"/>
+                    <include name="testLinks"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.ButtonsTest">
+                <methods>
+                    <include name="testAllButtonsPressSuccess"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.CheckBoxTest">
+                <methods>
+                    <include name="testExpandAndCollapseBtnsSuccess"/>
+                    <include name="testAllCheckedSuccess"/>
+                    <include name="testClickOnGroupSuccess"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.DynamicPropertiesTest">
+                <methods>
+                    <include name="testStateOK"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.LinksTest">
+                <methods>
+                    <include name="testApiLinksResponses"/>
+                    <include name="testNewTabLinks"/>
+                    <include name="testApiWebUiresponses"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.RadioButtonTest">
+                <methods>
+                    <include name="testYesRadiosSuccess"/>
+                    <include name="testImpressiveRadiosSuccess"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.TextBoxTest">
+                <methods>
+                    <include name="testVerifySuccess"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.UploadDownloadTest">
+                <methods>
+                    <include name="testUploadSuccess"/>
+                    <include name="testDownloadSuccess"/>
+                </methods>
+            </class>
+            <class name="tests.Elements.WebTablesTest">
+                <methods>
+                    <include name="testAddingNewItemSuccess"/>
+                    <include name="testDeleteBtn"/>
+                    <include name="testDeleteAllItems"/>
+                    <include name="testSearch"/>
+                    <include name="testAddingMultipleItems"/>
+                </methods>
+            </class>
+            <class name="tests.Forms.FormsTest">
+                <methods>
+                    <include name="testFillAndSubmit"/>
+                </methods>
+            </class>
+            <class name="tests.AlertsFramesWindows.AlertsTest">
+                <methods>
+                    <include name="testAlertBtn"/>
+                    <include name="testTimerAlertBtn"/>
+                    <include name="testConfirmAlertBtn"/>
+                    <include name="testPromptBtnSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

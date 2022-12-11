@@ -1,0 +1,1 @@
+Aut2exe_x64 /in uploader.au3 /out uploader.exe /x64
